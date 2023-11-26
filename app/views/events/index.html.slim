@@ -1,6 +1,3 @@
-| Mike's age: #{@age}
-
 ul
-  li Bugsnack
-  li Hackaton
-  li Kata Camp
+  - @events.each do |event|
+    li #{event}
